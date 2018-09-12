@@ -24,7 +24,7 @@ function notify_message($message){
     $res = json_decode($result);
 	return $res;
 }
-$res = notify_message('hello');
+$res = notify_message('มีการเชื่อมต่แล้ว');
 var_dump($res);
 }
 ?>

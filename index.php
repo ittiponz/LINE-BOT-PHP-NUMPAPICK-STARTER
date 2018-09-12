@@ -1,6 +1,8 @@
 <?php
+fc();
 echo "Hello LINE BOT";
 
+function fc() {
 define('LINE_API',"https://notify-api.line.me/api/notify");
 define('LINE_TOKEN','RtFywTWTN5OOzIvpPfqTY8nUAu2ysELCQOwFyBB13bk');
 
@@ -23,6 +25,6 @@ function notify_message($message){
 	return $res;
 }
 $res = notify_message('hello');
-var_dump($res);
-
+//var_dump($res);
+}
 ?>

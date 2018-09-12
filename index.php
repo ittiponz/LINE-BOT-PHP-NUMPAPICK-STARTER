@@ -1,5 +1,5 @@
 <?php
-fc();
+//fc();
 echo "Hello LINE BOT";
 
 function fc() {

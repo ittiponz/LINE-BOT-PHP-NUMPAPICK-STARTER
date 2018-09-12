@@ -25,6 +25,6 @@ function notify_message($message){
 	return $res;
 }
 $res = notify_message('hello');
-//var_dump($res);
+var_dump($res);
 }
 ?>

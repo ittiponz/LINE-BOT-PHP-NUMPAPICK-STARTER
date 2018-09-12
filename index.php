@@ -27,4 +27,10 @@ function notify_message($message){
 $res = notify_message('มีการเชื่อมต่อแล้ว');
 var_dump($res);
 }
+object(stdClass)#1 (2) {
+  ["status"]=>
+  int(200)
+  ["message"]=>
+  string(2) "ok"
+}
 ?>
